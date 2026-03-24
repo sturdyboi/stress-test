@@ -11,5 +11,5 @@ jobs:
       - name: Install hping3
         run: sudo apt-get install -y hping3
 
-      - name: TCP SYN test (port 19132)
-        run: sudo hping3 -S -p 19132 --flood mc.frostsmp.net
+      - name: TCP SYN test (port 25565)
+        run: sudo hping3 -S -p 25565 --flood mc.frostsmp.net
